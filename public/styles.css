@@ -1,0 +1,73 @@
+
+h1 { 
+  text-align: center;
+  color: #900000;
+
+}
+
+button{
+  background-color: #900000;
+}
+
+table {
+  width: 95%;
+  border-collapse:collapse;
+  margin-left: 2%;
+  background-color: #fcf7f7;  
+}
+
+th, td {
+  border: 1px solid #500000;
+  padding: 9px;
+
+}
+
+tr:hover{
+  background-color: rgb(255, 0, 0);
+  cursor: pointer; 
+}
+
+th {
+  background-color: #d40000;
+}
+
+.livro {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+ color:#000000;
+}
+
+.options {
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.options a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #000000;
+  padding: 5px 15px;
+  border: 2px solid #ddd;
+  background-color: #fcf7f7;
+
+
+}
+
+.options a:hover {
+  background-color: #ff0000;
+}
+
+.options a.active {
+  font-weight: bold;
+  background-color: #900000;
+  color: white;
+  pointer-events: none;
+}
+
+body {
+  font-family: Arial, Times, serif;
+  margin-top: 2%;
+
+}
